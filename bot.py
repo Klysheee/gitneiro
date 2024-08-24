@@ -75,6 +75,6 @@ async def on_command_error(ctx, error):
 
 if __name__ == "__main__":
     if bot_token:
-        bot.run('MTI3NTM3Nzg1MjA2NTI1MTQwMw.GABedr.14RYDijMy15r8f4b24JE4u6tkpYKt9XNzQ44Nk')
+        bot.run(bot_token)
     else:
         print("Ошибка: Токен бота не установлен. Пожалуйста, проверьте переменные окружения.")
